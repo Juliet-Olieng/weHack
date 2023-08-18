@@ -3,23 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="blog.css">
     <title>Document</title>
 </head>
 <body>
     <nav>
-        <li> <a href="#">Home</a></li>
-        <li> <a href=".shop">Shop</a></li>
-        <li> <a href="./products.html">Products</a></li>
-        <li> <a href="./blog.html">Blog</a></li>
-        
-    </nav>
+        <div class="menu-toggle">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul class="menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./sitting.html">SITTING ROOM</a></li>
+          <li><a href="./sitting.html">BEDROOM</a></li>
+          <li><a href="./kitchen.html">KITCHEN</a></li>
+          <li><a href="./blog.html">Blog</a></li>
+        </ul>
+      </nav>
+      
     <div>
-        <h4>From Our Blog</h4>
+        <h1>From Our Blog</h1>
+        <div id="banner">
+            <h1>get all design you need</h1>
+            <h1>reach out tonus to display your decors </h1>
+        </div >
+        <!-- <img  src="./image/banner.jpg" alt=""> -->
         <p>see what our customers says about us</p>
-        <div>
-            <div>
-                <img src="" alt="">
+        <div class="blog">
+            <div id="decor1">
+                <img src="./image/person1.jpeg" alt="">
                 <p>Lorem ipsum dolor sit amet <br>
                 consectetur adipisicing elit. <br>
                 Neque doloremque repudiandae <br>
@@ -27,8 +40,8 @@
                 <h4>Read More</h4>
             </div>
             <!--  -->
-            <div>
-                <img src="" alt="">
+            <div id="decor1">
+                <img src="./image/person2.jpeg" alt="">
                 <p>Lorem ipsum dolor sit amet <br>
                 consectetur adipisicing elit. <br>
                 Neque doloremque repudiandae <br>
@@ -36,8 +49,17 @@
                 <h4>Read More</h4>
             </div>
             <!--  -->
-            <div>
-                <img src="" alt="">
+            <div id="decor1">
+                <img src="./image/persoon3.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet <br>
+                consectetur adipisicing elit. <br>
+                Neque doloremque repudiandae <br>
+                aspernatur excepturi fugiat rem?</p>
+                <h4>Read More</h4>
+            </div>
+            <!--  -->
+            <div id="decor1">
+                <img src="./image/person4.jpeg" alt="">
                 <p>Lorem ipsum dolor sit amet <br>
                 consectetur adipisicing elit. <br>
                 Neque doloremque repudiandae <br>
@@ -46,34 +68,42 @@
             </div>
         </div>
     </div>
-    <div>
-        <h1>Contact Us 
-            <div>
-                <div>
-                    <h4>links</h4>
-                    <li><a href="./index.html">home</a></li>
-                    <li><a href="./products.html">products</a></li>
-                    <li><a href="">cartegories</a></li>
-                    <li><a href="">blog</a></li>
-                    <li><a href="">contact us</a></li>
-                </div>
-                <!--  -->
-                <div>
-                    <h4>Follow us </h4>
-                    <p>facebook</p>
-                    <p>twitter</p>
-                    <p>instagram</p>
-                
-                </div>
-                <!--  -->
-                <div>
-                    <p>Tel:+254718492299</p>
-                    <p>Adress: 81</p>
-                    <p>email:anyangojolieng@gmail.com</p>
-                </div>
-            </div>
-        </h1>
+
+    <div class="form">
+        <input type="text" placeholder="enter name">
+        <input type="text" placeholder="phone number">
+        <input type="" placeholder="upload your decor">
+        <button>save</button>
     </div>
-    
+    <div class="foot">
+        <h1>Contact Us</h1> 
+        <div class="footer">
+            <div>
+                <h4>links</h4>
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./products.html">products</a></li>
+                <li><a href="">cartegories</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">contact us</a></li>
+            </div>
+            <!--  -->
+            <div>
+                <h4>Follow us </h4>
+                <p>facebook</p>
+                <p>twitter</p>
+                <p>instagram</p>
+            
+            </div>
+            <!--  -->
+            <div>
+                <h4>contact us</h4>
+                <p>Tel:+254718492299</p>
+                <p>Adress: 81</p>
+                <p>email:anyangojolieng@gmail.com</p>
+            </div>
+        </div>
+    </div>
+
+   <script src="./index.js"></script> 
 </body>
 </html>
