@@ -202,19 +202,16 @@ button{
       width: 100%;
     }
   
-    /* ... other responsive adjustments ... */
   }
   
   /* Media Query for Mobile Devices */
   @media (max-width: 480px) {
-    /* Further adjustments for smaller screens */
   
     .footer div {
       text-align: center;
       margin-bottom: 20px;
     }
-  
-    /* ... other responsive adjustments ... */
+ 
   }
   @media (max-width: 768px) {
     .decor {
