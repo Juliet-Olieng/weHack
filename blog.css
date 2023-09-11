@@ -105,9 +105,14 @@ span{
 #decor1{
     border: solid gray;
     padding: 1%;
-    /* width: 300px; */
+    width: 300px;
+    margin-left: 2%;
 
 
+}
+h5{
+  font-size: 30px;
+  text-align: center;
 }
 
 #banner{
@@ -122,7 +127,7 @@ text-align: left;
     background-color: bisque;
     display: grid;
     border: solid none;
-    width: 400px;
+    width: 500px;
     margin: 5%;
     padding: 3%;
 }
