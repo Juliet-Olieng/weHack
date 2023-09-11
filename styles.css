@@ -125,9 +125,11 @@ h3{
 #images{
     margin-top: 1%;
     width: 100%;
+    height: 400px;
 }
 #image{
     width: 520px;
+    
 }
 .about{
     margin-left: 10%;
